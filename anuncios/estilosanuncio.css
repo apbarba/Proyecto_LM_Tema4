@@ -1,10 +1,28 @@
-#adlateral1{
-    display: block;
-    position: relative;
-    width: 160px;
-    height: 600px;
-    top: 180px;
-    right: 0px;
-    border: 1px solid #eee;
-    z-index: 99;
-}
+.ads {
+    margin-top:5px;
+   }
+   .ads video {
+    padding: 10px;
+    border: 5px solid #CCCCCC;
+    margin-right: 5px;
+    margin-bottom: 5px;
+   }
+   .ads p {
+    font-size: 12px;
+    margin: 10px 0px 0px;
+    padding: 0px;
+    float: right;
+    width: 342px;
+    font-weight: bold;
+    color: #000000;
+   }
+   .ads p a {
+    color: #006699;
+    text-decoration: underline;
+   }
+   .ads video:hover {
+    padding: 5px;
+    border: 1px solid #999999;
+    margin-right: 5px;
+    margin-bottom: 5px;
+   }
